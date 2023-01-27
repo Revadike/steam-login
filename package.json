@@ -2,10 +2,10 @@
   "name": "remote-steam-login",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "api/handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node handler.js"
+    "start": "node api/handler.js"
   },
   "author": "Revadike",
   "license": "LICENSE",
