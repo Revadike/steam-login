@@ -1,7 +1,7 @@
 const { EAuthSessionGuardType, EAuthTokenPlatformType, LoginSession } = require("steam-session");
 const { generateAuthCode } = require("steam-totp");
 
-export default async function handler(req, res) {
+export default async function login(req, res) {
     console.log("Received login request");
 
     let { "username": accountName, password, "shared_secret": sharedSecret, code } = req.query || req.body;
