@@ -2,16 +2,15 @@
   "name": "remote-steam-login",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node handler.js"
   },
   "author": "Revadike",
   "license": "LICENSE",
   "dependencies": {
     "steam-session": "latest",
-    "steam-totp": "latest",
-    "express": "latest"
+    "steam-totp": "latest"
   }
 }
