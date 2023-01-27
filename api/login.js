@@ -1,5 +1,5 @@
-const { EAuthSessionGuardType, EAuthTokenPlatformType, LoginSession } = require("steam-session");
-const { generateAuthCode } = require("steam-totp");
+import { EAuthSessionGuardType, EAuthTokenPlatformType, LoginSession } from "steam-session";
+import { generateAuthCode } from "steam-totp";
 
 export default async function login(req, res) {
     console.log("Received login request");
